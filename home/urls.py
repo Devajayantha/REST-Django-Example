@@ -6,5 +6,5 @@ router = routers.DefaultRouter()
 router.register('inventory', views.InventoryView)
 
 urlpatterns = [
-    path('', include(router.urls))
+    path('home/', include(router.urls))
 ]
